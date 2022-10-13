@@ -1,0 +1,7 @@
+.disciplina{
+    @include propiedades-flex(row,center,center);
+    .claseImg{
+        @include propiedades-flex(row,center,center);
+    }
+}
+

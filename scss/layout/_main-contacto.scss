@@ -1,0 +1,50 @@
+.form{
+    .selector{
+        margin-left: 20.5em;
+    }
+    .textArea{
+        margin-left: 13em;
+        width: 30em;
+    }
+    .fieldset{
+        display: block;
+        flex-direction: column;
+        width: 20em;
+        text-align: center;
+        margin-left: 10em;
+    }
+    .formBoton{
+        display: inline;
+        position: relative;
+        width: 10em;
+        height: 2.5em;
+    }
+    .formHeader{
+        color: white;
+        background-color: rgba(0,0,0,.6);
+        font-size: large;
+        font-family: $fuente-secundaria;
+        width: 90%;
+        max-width: 40em;
+        margin: auto;
+        padding: 1em;
+        margin-top: 1em;
+        padding-bottom: 2em;
+        border-radius: 0.5em;
+        .formLabel{
+            display: block;
+            position: relative;
+            text-align: center;
+            margin-top: 1em;
+        }
+        .formInput{
+            color: white;
+            background: rgba(63, 62, 62, 0.301);
+            border: none;
+            outline: none;
+            width: 30em;
+            padding: 0.5em;
+            margin: 0em 13em;
+        }
+    }
+}

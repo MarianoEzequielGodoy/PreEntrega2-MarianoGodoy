@@ -1,0 +1,25 @@
+body{
+    background-image: $background-principal;
+    height: 100%;
+}
+h1 {
+    margin-top: 1em;
+    text-align: center;
+    font-family: $fuente-principal;
+    font-size: 5em;
+}
+h2 {
+    font-family: $fuente-secundaria;
+    text-align: center;
+}
+h3 {
+    font-family: $fuente-secundaria;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+p {
+    font-family: $fuente-secundaria;
+    font-size: 1.2em;
+    text-align: center;
+}
