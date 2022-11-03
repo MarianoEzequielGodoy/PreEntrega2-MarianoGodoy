@@ -9,10 +9,11 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon-16x16.png">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <title>Kadima Club</title>
 </head>
 <body class="contenedorGrid">
-    <header class="headerGrid">
+    <header class="container-fluid headerGrid">
         <nav>
             <a href="#">
                 <img src="./assets/img/favicon-32x32.png" alt="">
@@ -31,15 +32,54 @@
             <p>¡Veni a descubrir una nueva forma de entrenar! Contamos con equipación de última generación y coachs especializados en el área de entrenamiento para que puedas sacar el máximo en cada sesión</p>
         </section>
     </main>
-    <section class="imagenCarousel">
-        <div>
-            <img class="banner1" src="./assets/img/banner1(1).jpg" alt="">
+    <section class="container-fluid w-50 h-50">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/img/banner1(1).jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/banner2(1).jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/banner3(1).jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+    <section>
+        <h2>PLANES</h2>
+    </section>
+    <section class="d-flex">
+        <div class="planAnual">
+            <h3>PLAN ANUAL</h3>
+            <ul class="listaPlanes">
+                <li>UNA SEMANA DE PRUEBA GRATUITA</li>
+                <li>PRIORIDAD DE RESERVA DE TURNOS</li>
+                <li>CLASE DE CROSSFIT, FUNCIONAL Y LEVANTAMIENTO OLIMPICO</li>
+                <li>SIN CARGO DE CANCELACION</li>
+            </ul>
         </div>
-        <div>
-            <img class="banner2" src="./assets/img/banner2(1).jpg" alt="">
-        </div>
-        <div>
-            <img class="banner3" src="./assets/img/banner3(1).jpg" alt="">
+        <div class="planMensual">
+            <h3>PLAN MENSUAL</h3>
+            <ul>
+                <li>UNA CLASE DE PRUEBA GRATUITA</li>
+                <li>CLASES DE CROSSFIT, FUNCIONAL Y LEVANTAMIENTO OLIMPICO</li>
+                <li>SIN CARGO DE CANCELACION</li>
+            </ul>
         </div>
     </section>
     <footer class="footer">
@@ -67,5 +107,7 @@
     <script>
         AOS.init();
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
 </body>
 </html>

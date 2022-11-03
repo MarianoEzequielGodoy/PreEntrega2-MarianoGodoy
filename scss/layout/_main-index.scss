@@ -1,4 +1,4 @@
-.contenedorGrid{
+/*.contenedorGrid{
     display:grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto auto;
@@ -38,4 +38,14 @@
 .footer{
     grid-column: 1/4;
     grid-row: 4/5;
+}*/
+.planAnual{
+    margin: auto;
+    height: 500px;
+    border: solid white;
+    background-color: rgba(75, 74, 74, 0.644);
+    border-radius: 10px;
+    .listaPlanes{
+        list-style: none;
+    }
 }
