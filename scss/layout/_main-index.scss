@@ -39,13 +39,52 @@
     grid-column: 1/4;
     grid-row: 4/5;
 }*/
-.planAnual{
-    margin: auto;
-    height: 500px;
-    border: solid white;
-    background-color: rgba(75, 74, 74, 0.644);
-    border-radius: 10px;
-    .listaPlanes{
-        list-style: none;
+.planes{
+    display: flex;
+    justify-content: space-evenly;
+    .planAnual{
+        border: solid 5px orange;
+        border-radius: 5px;
+        width: 30%;
+        height: 555px;
+        ul li{
+            padding: 30px;
+        }
+        a{
+            text-decoration:none;
+            font-weight:600;
+            font-size:25px;
+            color:#ffffff;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top:15px;
+            padding-bottom:15px;
+            padding-left:150px;
+            padding-right:150px;
+            background-color:#FFD27D;
+        }
+    }
+    .planMensual{
+        border: solid 5px grey;
+        border-radius: 5px;
+        width: 30%;
+        height: 555px;
+        ul li{
+            padding: 30px;
+            margin-bottom: 32px;
+        }
+        a{
+            text-decoration:none;
+            font-weight:600;
+            font-size:25px;
+            color:#ffffff;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top:15px;
+            padding-bottom:15px;
+            padding-left:150px;
+            padding-right:150px;
+            background-color:#FFD27D;
+        }
     }
 }
