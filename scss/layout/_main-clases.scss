@@ -1,7 +1,43 @@
-.disciplina{
-    @include propiedades-flex(row,center,center);
+.crossfit{
     .claseImg{
-        @include propiedades-flex(row,center,center);
+        @include propiedades-flex(column,center,center)
+    }
+    h2{
+        padding-top: 10px;
+    }
+    p{
+        padding: 20px;
+        margin: auto;
+        width: 500px;
+        text-align: justify;
     }
 }
-
+.funcional{
+    .claseImg{
+        @include propiedades-flex(column,center,center)
+    }
+    h2{
+        padding-top: 20px;
+    }
+    p{
+        margin: auto;
+        padding: 20px;
+        width: 500px;
+        text-align: justify;
+    }
+}
+.levOli{
+    .claseImg{
+        @include propiedades-flex(column,center,center);
+        padding-bottom: 50px;
+    }
+    h2{
+        padding-top: 20px;
+    }
+    p{
+        margin: auto;
+        padding: 20px;
+        width: 500px;
+        text-align: justify;
+    }
+}

@@ -42,25 +42,40 @@
 .planes{
     display: flex;
     justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 150px;
+    background-color: rgb(66, 65, 65);
     .planAnual{
         border: solid 5px orange;
         border-radius: 5px;
         width: 30%;
-        height: 555px;
+        height: 600px;
+        background-color: black;
+        h3{
+            font-family: $fuente-principal;
+            font-size: 50px;
+            color: bisque;
+        }
+        p{
+            color: bisque;
+        }
+        hr{
+            color: bisque;
+        }
         ul li{
             padding: 30px;
+            color: bisque;
         }
         a{
             text-decoration:none;
             font-weight:600;
             font-size:25px;
             color:#ffffff;
-            margin-left: auto;
-            margin-right: auto;
-            padding-top:15px;
-            padding-bottom:15px;
-            padding-left:150px;
-            padding-right:150px;
+            margin: auto;
+            padding-top: auto;
+            padding-bottom:auto;
+            padding-left: auto;
+            padding-right:auto;
             background-color:#FFD27D;
         }
     }
@@ -68,10 +83,23 @@
         border: solid 5px grey;
         border-radius: 5px;
         width: 30%;
-        height: 555px;
+        height: 600px;
+        background-color: black;
+        h3{
+            font-family: $fuente-principal;
+            font-size: 50px;
+            color: bisque;
+        }
+        p{
+            color: bisque;
+        }
+        hr{
+            color: bisque;
+        }
         ul li{
             padding: 30px;
             margin-bottom: 32px;
+            color: bisque;
         }
         a{
             text-decoration:none;
@@ -80,10 +108,10 @@
             color:#ffffff;
             margin-left: auto;
             margin-right: auto;
-            padding-top:15px;
-            padding-bottom:15px;
-            padding-left:150px;
-            padding-right:150px;
+            padding-top:auto;
+            padding-bottom:auto;
+            padding-left:auto;
+            padding-right:auto;
             background-color:#FFD27D;
         }
     }
